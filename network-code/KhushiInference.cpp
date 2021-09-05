@@ -58,7 +58,7 @@ class KhushiInference {
                 }
 };
 /*
-PYBIND11_MODULE(khushu, m) {
+PYBIND11_MODULE(khushi, m) {
         py::class_<KhushiInference>(m, "KhushiInference")
                 .def(py::init<std::string, std::string>())
                 .def("read_image", &KhushIinference::read_image)
